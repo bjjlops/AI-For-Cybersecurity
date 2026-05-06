@@ -134,7 +134,7 @@ Testing was limited to the configured local OWASP Juice Shop target. The agent a
   "status": 200,
   "user": "admin@juice-sh.op",
   "has_token": true,
-  "body_excerpt": "{\"authentication\":{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE"
+  "body_excerpt": "{\"authentication\":{\"token\":\"[redacted-jwt]\""
 }
 ```
 
@@ -160,7 +160,7 @@ Testing was limited to the configured local OWASP Juice Shop target. The agent a
   "status": 200,
   "user": "admin@juice-sh.op",
   "has_token": true,
-  "body_excerpt": "{\"authentication\":{\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE"
+  "body_excerpt": "{\"authentication\":{\"token\":\"[redacted-jwt]\""
 }
 ```
 

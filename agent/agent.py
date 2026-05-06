@@ -468,6 +468,12 @@ class PentestAgent:
     def _redacted_json(self, payload: Any) -> str:
         text = json.dumps(payload, indent=2, default=str)
         text = re.sub(
+            r'(\\?"(?:token|authorization)\\?"\s*:\s*\\?")[A-Za-z0-9._-]{16,}',
+            r"\1[redacted]",
+            text,
+            flags=re.IGNORECASE,
+        )
+        text = re.sub(
             r"eyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+",
             "[redacted-jwt]",
             text,

@@ -98,4 +98,4 @@ The next improvements would be targeted solvers for the remaining high-value cat
 
 - **External code/libraries:** Project scaffold dependencies in `requirements.txt`: LiteLLM, httpx, Pydantic, BeautifulSoup, Rich, PyJWT, Playwright.
 - **External sources:** OWASP Juice Shop project concept and local training target from the assignment README. No external exploit write-ups or copied code were used.
-- **AI assistance:** Chat GPT-5.5 Thinking helped implement the agent, tools, report generator, and this design draft under my instructions. The runtime model remains configurable through LiteLLM.
+- **AI assistance:** Codex GPT-5.5 Thinking helped implement the agent, tools, report generator, and this design draft under my instructions. The runtime model remains configurable through LiteLLM.
